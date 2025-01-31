@@ -37,7 +37,8 @@
                 echo "<td>$row[tanggal_sewa]</td>";
                 echo "<td>$row[durasi]</td>";
                 echo "<td>$tanggal_selesai</td>";
-                echo "<td><a href='formEditSewa.php?id=$row[id]'>Edit</a></td>";
+                echo "<td><a href='formEditSewa.php?id=$row[id]'>Edit</a>
+                        <a href='prosesDeletSewa.php?id=$row[id]'>Delet</a></td>";
 
                 $no++;
             }
