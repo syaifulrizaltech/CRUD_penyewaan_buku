@@ -10,6 +10,7 @@
     <title>Read Sewa</title>
 </head>
 <body>
+    <a href="formSewa.php">Tambah Sewa</a>
     <table border="1px">
         <tr>
             <th>No</th>
@@ -36,7 +37,7 @@
                 echo "<td>$row[tanggal_sewa]</td>";
                 echo "<td>$row[durasi]</td>";
                 echo "<td>$tanggal_selesai</td>";
-                echo "<td>&nbsp;</td>";
+                echo "<td><a href='formEditSewa.php?id=$row[id]'>Edit</a></td>";
 
                 $no++;
             }

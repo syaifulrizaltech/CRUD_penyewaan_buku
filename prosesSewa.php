@@ -10,4 +10,4 @@
 
     mysqli_query($koneksi, "INSERT INTO sewa (judul,penyewa,durasi,tanggal_sewa) VALUES ('$judul','$penyewa','$durasi','$tanggal_sewa')");
 
-    header("location: formSewa.php");
+    header("location: index.php");
